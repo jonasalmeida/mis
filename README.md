@@ -25,7 +25,7 @@ getTPs = async function(n,i,xx){
     }else{
         TP=xx
     }
-    return TP
+    return ` ${Date()}: ${n} x 10 entries concateneated asyncronously onto variable TP`
 }
 
 getTPs()
