@@ -22,6 +22,7 @@ getTPs = async function(n,i,xx){
         console.log(i,xi,xx.length,Date())
         //debugger
         getTPs(n,(i+1),xx)
+        temp=xx // temporary results, in case call chain breaks
     }else{
         TP=xx
     }
